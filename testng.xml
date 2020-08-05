@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     
+         <class name="Academy.GiphySearch"/>
+         <class name="Academy.GiphySearchInvalid"/>
+         <class name="Academy.GiphyUpload"/>
+         <class name="Academy.API_SearchBroad"/>
+         <class name="Academy.API_SearchByID"/>
+         <class name="Academy.API_SearchTrendNumbers"/>
+
+      
+      
+
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

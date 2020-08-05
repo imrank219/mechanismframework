@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48819" started-at="2020-08-05T15:26:27 CDT" finished-at="2020-08-05T15:27:15 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48819" started-at="2020-08-05T15:26:27 CDT" finished-at="2020-08-05T15:27:15 CDT">
+      <class name="Academy.GiphySearchInvalid">
+        <test-method status="PASS" signature="searchinvalidentry()[pri:0, instance:Academy.GiphySearchInvalid@2173f6d9]" name="searchinvalidentry" duration-ms="10788" started-at="2020-08-05T15:26:38 CDT" finished-at="2020-08-05T15:26:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchinvalidentry -->
+      </class> <!-- Academy.GiphySearchInvalid -->
+      <class name="Academy.GiphySearch">
+        <test-method status="PASS" signature="searchvalidentry()[pri:0, instance:Academy.GiphySearch@7e2d773b]" name="searchvalidentry" duration-ms="11570" started-at="2020-08-05T15:26:27 CDT" finished-at="2020-08-05T15:26:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchvalidentry -->
+      </class> <!-- Academy.GiphySearch -->
+      <class name="Academy.API_SearchByID">
+        <test-method status="PASS" signature="API_Validate_ID()[pri:0, instance:Academy.API_SearchByID@6f195bc3]" name="API_Validate_ID" duration-ms="129" started-at="2020-08-05T15:27:15 CDT" finished-at="2020-08-05T15:27:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_Validate_ID -->
+      </class> <!-- Academy.API_SearchByID -->
+      <class name="Academy.API_SearchBroad">
+        <test-method status="PASS" signature="API_Validate_GIFSearch()[pri:0, instance:Academy.API_SearchBroad@7a187f14]" name="API_Validate_GIFSearch" duration-ms="2332" started-at="2020-08-05T15:27:13 CDT" finished-at="2020-08-05T15:27:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_Validate_GIFSearch -->
+      </class> <!-- Academy.API_SearchBroad -->
+      <class name="Academy.API_SearchTrendNumbers">
+        <test-method status="PASS" signature="API_Validate_TrendCount()[pri:0, instance:Academy.API_SearchTrendNumbers@51e2adc7]" name="API_Validate_TrendCount" duration-ms="148" started-at="2020-08-05T15:27:15 CDT" finished-at="2020-08-05T15:27:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API_Validate_TrendCount -->
+      </class> <!-- Academy.API_SearchTrendNumbers -->
+      <class name="Academy.GiphyUpload">
+        <test-method status="PASS" signature="searchvalidentry()[pri:0, instance:Academy.GiphyUpload@307f6b8c]" name="searchvalidentry" duration-ms="23817" started-at="2020-08-05T15:26:49 CDT" finished-at="2020-08-05T15:27:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchvalidentry -->
+      </class> <!-- Academy.GiphyUpload -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
