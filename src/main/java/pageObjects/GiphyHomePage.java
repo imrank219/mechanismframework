@@ -12,10 +12,13 @@ public class GiphyHomePage {
 	By loginbutton = By.xpath("//*[@id=\"login-button\"]");
 	By name =  By.xpath("//span[contains(@class, '_17hY_dW7917mzr2S9Ree') and text() = 'imran219']");
 	By searchbar=By.xpath("//*[@id=\"searchbar\"]/div/div/form/input");
-	By searchbutton=By.xpath("//*[@class='search-button__SearchIcon-ndudpy-0 lkAkJi']");
+	By searchbutton=By.xpath("//*[@class='search-button__SearchIcon-ndudpy-0 dXfOPS']");
 	By searchresults1=By.xpath("//*[@id=\"react-target\"]/div/div[5]/div[2]/div[1]/a[1]/div/picture/img");
 	By upload=By.xpath("//span[contains(@class, '_3zNy6xutECQ64hsEPFm_UH') and text() = 'Upload']");
 	By errormessage=By.xpath("//*[contains(text(),'Oops sorry! @@@ is not a GIPHY Channel.')]");
+	By tile1=By.xpath("/html/body/div[1]/div[2]/div[4]/div[1]");
+//	By confirm=By.xpath("/html/body/div[1]/div[2]/div[1]/div/div[3]/div)");
+	By confirm=By.xpath("/html/body/div[1]/div[2]/div[1]/div/div[3]/div");
 			
 			////*[@id="content"]/div/div/h2
 	
@@ -57,5 +60,13 @@ public class GiphyHomePage {
 	
 	public WebElement getError() {
 		return driver.findElement(errormessage);
+	}
+	
+	public WebElement getTile1() {
+		return driver.findElement(tile1);
+	}
+	
+	public WebElement getConfirm() {
+		return driver.findElement(confirm);
 	}
 }

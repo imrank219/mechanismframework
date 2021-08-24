@@ -1,0 +1,4 @@
+15:58:55.780 [main] DEBUG groovyjarjarantlr4.v4.codegen.model.decl.Decl - I am debugging
+15:58:55.783 [main] INFO  groovyjarjarantlr4.v4.codegen.model.decl.Decl - object is present
+15:58:55.783 [main] ERROR groovyjarjarantlr4.v4.codegen.model.decl.Decl - object is not present
+15:58:55.783 [main] FATAL groovyjarjarantlr4.v4.codegen.model.decl.Decl - this is fatal
