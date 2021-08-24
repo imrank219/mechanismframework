@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]" parallel="tests">
   <listeners>
     <listener class-name="Academy.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" verbose="3" name="Test2(failed)" parallel="tests">
     <classes>
-      <class name="Academy.GiphySearch">
+      <class name="Academy.GiphySearchInvalid">
         <methods>
-          <include name="searchvalidentry"/>
+          <include name="searchinvalidentry"/>
         </methods>
-      </class> <!-- Academy.GiphySearch -->
-      <class name="Academy.API_SearchBroad">
-        <methods>
-          <include name="API_Validate_GIFSearch"/>
-        </methods>
-      </class> <!-- Academy.API_SearchBroad -->
+      </class> <!-- Academy.GiphySearchInvalid -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

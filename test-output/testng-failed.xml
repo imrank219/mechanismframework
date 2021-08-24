@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="3" name="Test2(failed)" parallel="tests">
     <classes>
-      <class name="Academy.GiphySearch">
+      <class name="Academy.GiphySearchInvalid">
         <methods>
-          <include name="searchvalidentry"/>
+          <include name="searchinvalidentry"/>
         </methods>
-      </class> <!-- Academy.GiphySearch -->
+      </class> <!-- Academy.GiphySearchInvalid -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
