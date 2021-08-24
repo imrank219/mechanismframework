@@ -17,7 +17,7 @@
     
     <classes>
   
-           <class name="Academy.GiphyUpload"/>
+           <class name="Academy.GiphySearchInvalid"/>
     
     </classes>
   </test> <!-- Test -->
