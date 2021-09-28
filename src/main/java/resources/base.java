@@ -79,7 +79,7 @@ public class base {
 		
 }
 	    public void URL() {
-	    	driver.get("https://staging.steno.com/cr/explore?token=2V5ysUheejaH3qoTtQDAqtajj");
+	    	driver.get("https://giphy.com/");
 	    }
 	
 }

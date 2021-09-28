@@ -2,4 +2,3 @@ resources\base.class
 pageObjects\GiphyLoginPage.class
 pageObjects\GiphyHomePage.class
 pageObjects\GiphyUploadPage.class
-resources\ExtentReporterNG.class

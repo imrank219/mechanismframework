@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Academy.GiphySearch">
+      <class name="Academy.GiphySearchInvalid">
         <methods>
-          <include name="searchvalidentry"/>
+          <include name="searchinvalidentry"/>
         </methods>
-      </class> <!-- Academy.GiphySearch -->
+      </class> <!-- Academy.GiphySearchInvalid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
